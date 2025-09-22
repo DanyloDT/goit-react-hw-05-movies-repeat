@@ -4,7 +4,7 @@ import { Loader, MessageSquare, Users } from 'lucide-react';
 
 import { MovieDetailsInfo } from '../../components/MovieDetailsInfo/MovieDetailsInfo';
 import { useHttp } from '../../Hook/useHttp';
-import { getMovieDetails } from '../../servise/themoviedb-api';
+import { getMovieDetails } from '../../service/themoviedb-api';
 
 const MovieDetails = () => {
   const { movieId } = useParams();

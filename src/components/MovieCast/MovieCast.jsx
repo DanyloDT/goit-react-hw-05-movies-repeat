@@ -1,6 +1,6 @@
 import React from 'react';
 import { useHttp } from '../../Hook/useHttp';
-import { getMovieCast } from '../../servise/themoviedb-api';
+import { getMovieCast } from '../../service/themoviedb-api';
 import { useParams } from 'react-router-dom';
 import img from '../../images/defaultImg.png';
 
@@ -11,7 +11,7 @@ const MovieCast = () => {
   return (
     <>
       {casts.length === 0 ? (
-        <h3>We don't have any reviews for this movie.</h3>
+        <h3>We don't have any information about the cast of this movie.</h3>
       ) : (
         <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
           {casts.map(({ id, profile_path, character = '', name = '' }) => (

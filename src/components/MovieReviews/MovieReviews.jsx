@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useHttp } from '../../Hook/useHttp';
-import { getMovieReviews } from '../../servise/themoviedb-api';
+import { getMovieReviews } from '../../service/themoviedb-api';
 
 const MovieReviews = () => {
   const { movieId } = useParams();
@@ -10,7 +10,7 @@ const MovieReviews = () => {
   return (
     <>
       {reviews.length === 0 ? (
-        <h3>We don't have any information about the cast of this movie.</h3>
+        <h3>We don't have any reviews for this movie.</h3>
       ) : (
         <ul className="flex flex-col gap-5">
           {reviews.map(({ id, author, content }) => (

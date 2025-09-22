@@ -1,4 +1,4 @@
-import { getMoviesTrending } from '../../servise/themoviedb-api';
+import { getMoviesTrending } from '../../service/themoviedb-api';
 import { Link } from 'react-router-dom';
 import { Star, TrendingUp } from 'lucide-react';
 import MoviesList from '../../components/MoviesList/MoviesList';

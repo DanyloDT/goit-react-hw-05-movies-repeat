@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 import { useRef } from 'react';
 import { ArrowLeft, Calendar, Clock, Star } from 'lucide-react';
-import date from '../../servise/date';
+import date from '../../service/date';
 
 export const MovieDetailsInfo = ({ movie }) => {
   const location = useLocation();

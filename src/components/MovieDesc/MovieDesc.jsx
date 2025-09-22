@@ -1,6 +1,6 @@
 import { Calendar, Star } from 'lucide-react';
 import React from 'react';
-import date from '../../servise/date';
+import date from '../../service/date';
 import img from '../../images/defaultImg.png';
 
 export const MovieDesc = ({ movie }) => {

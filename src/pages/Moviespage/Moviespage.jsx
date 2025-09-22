@@ -1,5 +1,5 @@
 import { useSearchParams } from 'react-router-dom';
-import { getMovie } from '../../servise/themoviedb-api';
+import { getMovie } from '../../service/themoviedb-api';
 
 import MoviesList from '../../components/MoviesList/MoviesList';
 import { useHttp } from '../../Hook/useHttp';

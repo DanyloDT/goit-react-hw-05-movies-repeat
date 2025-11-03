@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/goit-react-hw-05-movies-repeat">
       <App />
     </BrowserRouter>
   </StrictMode>

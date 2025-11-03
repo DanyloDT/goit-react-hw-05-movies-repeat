@@ -5,5 +5,5 @@ import tailwindcss from '@tailwindcss/vite';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/goit-react-hw-05-movies-repeat/',
+  // base: '/goit-react-hw-05-movies-repeat/',
 });
